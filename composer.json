@@ -1,0 +1,23 @@
+{
+    "name": "niirrty/niirrty.security.password",
+    "description": "A little password-security library",
+    "type": "library",
+    "require": {
+        "niirrty/niirrty.core": "~0.1",
+        "niirrty/niirrty.db": "~0.1",
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "niirrty",
+            "email": "niirrty+code@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Niirrty\\Security\\Password\\": "src/"
+        }
+    }
+}
